@@ -1,0 +1,25 @@
+{
+  "name": "rucksack-with-postcss-master",
+  "version": "1.0.0",
+  "description": "Master files from rucksack-with-postcss tutorials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfallon/rucksack-with-postcss-master.git"
+  },
+  "keywords": [
+    "gulp",
+    "postcss",
+    "rucksack",
+    "autoprefixer"
+  ],
+  "author": "Jay Fallon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayfallon/rucksack-with-postcss-master/issues"
+  },
+  "homepage": "https://github.com/jayfallon/rucksack-with-postcss-master#readme"
+}
