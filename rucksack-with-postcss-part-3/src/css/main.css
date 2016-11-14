@@ -1,0 +1,10 @@
+/* main.css */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: responsive 1.143em 1.714em;
+  font-range: 30em 91.429em;
+}

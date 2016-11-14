@@ -1,4 +1,4 @@
-# rucksack-with-postcss-part-2
+# rucksack-with-postcss-part-3
 
 A short visual tutorial on how to use Rucksack’s awesome superpowers in your gulp build.
 
