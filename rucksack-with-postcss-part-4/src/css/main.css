@@ -1,0 +1,20 @@
+/* main.css */
+
+html {
+  font-size: 14px;
+}
+
+/* responsive typography */
+body {
+  font-size: responsive 1.143em 1.714em;
+  font-range: 30em 91.429em;
+}
+
+/* shorthand positioning */
+.orange-square {
+  background-color: orange;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position: absolute 0 0 0 0;
+}
