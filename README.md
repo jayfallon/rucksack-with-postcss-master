@@ -1,14 +1,10 @@
-# rucksack-with-postcss-master 
+# rucksack-with-postcss-master
 
 Master files from rucksack-with-postcss tutorials.
 
 ## Installation
 
-Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
-
-```sh
-npm install rucksack-with-postcss-master --save
-```
+None. See the individual lessons for install information.
 
 
 ## Tests
