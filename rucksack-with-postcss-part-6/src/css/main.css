@@ -1,0 +1,60 @@
+/* main.css */
+
+@alias {
+  bgc: background-color;
+  m: margin;
+  p: padding;
+  gbdr: 1px solid #121212;
+  c: color;
+  fz: font-size;
+  fs: font-style;
+}
+
+html {
+  font-size: 14px;
+}
+
+/* responsive typography */
+body {
+  font-size: responsive 1.143em 1.714em;
+  font-range: 30em 91.429em;
+}
+
+/* shorthand positioning */
+.orange-square {
+  background-color: orange;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position: absolute 0 0 0 0;
+}
+
+/* quantity pseudo-selectors */
+ul.quantity-list li:at-most(2){
+  color: blue;
+}
+
+ul.quantity-list li:between(3, 5){
+  background-color: yellow;
+}
+
+ul.quantity-list li:exactly(6){
+  background-color: darkOrange;
+  color: white;
+}
+
+ul.quantity-list li:at-least(7){
+  background-color: red;
+  color: white;
+}
+
+/* property aliases */
+.callout {
+  bgc: lightBlue;
+  m: 20px auto;
+  p: 12px;
+  border: gbdr;
+  c: #333;
+  fz: 1.25em;
+  font-size: italic;
+}
