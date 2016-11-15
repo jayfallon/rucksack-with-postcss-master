@@ -1,0 +1,113 @@
+/* main.css */
+
+@alias {
+  bgc: background-color;
+  m: margin;
+  p: padding;
+  gbdr: 1px solid #121212;
+  c: color;
+  fz: font-size;
+  fs: font-style;
+}
+
+html {
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+
+/* responsive typography */
+body {
+  font-size: responsive 1.143em 1.714em;
+  font-range: 30em 91.429em;
+}
+
+/* shorthand positioning */
+.orange-square {
+  background-color: orange;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position: absolute 0 0 0 0;
+}
+
+/* quantity pseudo-selectors */
+ul.quantity-list li:at-most(2){
+  color: blue;
+}
+
+ul.quantity-list li:between(3, 5){
+  background-color: yellow;
+}
+
+ul.quantity-list li:exactly(6){
+  background-color: darkOrange;
+  color: white;
+}
+
+ul.quantity-list li:at-least(7){
+  background-color: red;
+  color: white;
+}
+
+/* property aliases */
+.callout {
+  bgc: lightBlue;
+  m: 20px auto;
+  p: 12px;
+  border: gbdr;
+  c: #333;
+  fz: 1.25em;
+  font-size: italic;
+}
+
+/* input pseudo-elements */
+input::placeholder {
+  bgc: green;
+  padding: 4px;
+  color: white;
+  opacity: 0.8;
+}
+
+input[type="text"] {
+  padding: 0;
+  border: 0;
+}
+
+input[type="range"]::track {
+  bgc: green;
+  border: 1px solid orange;
+  height: 20px;
+}
+
+input[type="range"]::thumb {
+  bgc: white;
+  border-bottom: 1px solid orange;
+  width: 30px;
+  height: 19px;
+}
+
+input[type="range"] {
+  margin-top: 40px;
+}
+
+/* native clearfix */
+
+/* fix */
+.wrapper-div {
+  margin-top: 40px;
+  padding: 8px;
+  border: gbdr;
+  clear: fix; /* added the clearfix method */
+}
+
+.avatar-div {
+  bgc: orangeRed;
+  width: 100px;
+  height: 100px;
+  float: none;
+}
+
+.content-div {
+  margin-left: 112px; /* spaced the content away from the avatar */
+  float: left;
+}
