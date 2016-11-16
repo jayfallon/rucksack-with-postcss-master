@@ -31,10 +31,5 @@ gulp.task('build:html', function(){
 //- css build task
 gulp.task('build:css', function(){
   return gulp.src('src/css/main.css')
-    .pipe(dependencies({
-      dest: 'build',
-      prefix: 'vendor',
-      flat: true
-    }))
     .pipe(gulp.dest('./build/css/'));
 });
