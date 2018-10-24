@@ -4,7 +4,9 @@
   "description": "A short visual tutorial on how to use Rucksack’s awesome superpowers in your gulp build.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "gulp",
@@ -17,10 +19,12 @@
   "dependencies": {
     "autoprefixer": "^6.5.1",
     "bootstrap": "^3.3.7",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-html-dependencies": "^1.0.4",
     "gulp-postcss": "^6.2.0",
     "gulp-util": "^3.0.7",
-    "rucksack-css": "^0.8.6"
-  }
+    "rucksack-css": "^0.8.6",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
